@@ -1,0 +1,53 @@
+/* CSS */
+.container {
+    max-width: 520px; /* Set a maximum width for the container */
+    margin: 100px auto; /* Center the container horizontally with a top margin of 100px */
+    padding: 20px; /* Add some padding for better visual spacing */
+  }
+  
+  .gray {
+    color: gray;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 16px;
+    font-size: 18px;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    box-sizing: border-box;
+  }
+  
+  .input:focus {
+    outline: none;
+    border: 1px solid dodgerblue;
+  }
+  
+  .btn {
+    width: 100%; /* Make the button occupy the full width of its container */
+    background-color: black;
+    color: white;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 12px;
+    font-size: 16px;
+  }
+  .display-none{
+    display: none;
+  }
+  
+  /* Media query for responsiveness */
+  @media only screen and (max-width: 600px) {
+    .container {
+      margin: 50px auto; /* Adjust the margin for smaller screens */
+      padding: 10px; /* Adjust the padding for smaller screens */
+      max-width: 90%; /* Set maximum width to 90% of the viewport */
+    }
+  
+    .btn {
+      font-size: 14px; /* Decrease the font size of the button on smaller screens */
+    }
+  }
+  

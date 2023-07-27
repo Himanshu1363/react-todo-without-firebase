@@ -1,0 +1,13 @@
+.todoFlex{
+    display: flex;
+    gap: 19px;
+}
+p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.taskDone:checked+p{
+    background-color: bisque;
+    padding: 0 3px;
+    text-decoration: line-through;
+}
